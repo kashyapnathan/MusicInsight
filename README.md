@@ -1,55 +1,64 @@
-MusicInsight
+# MusicInsight
 MusicInsight is a web application that helps users analyze the sentiment of their Spotify playlists. By fetching the tracks in a given playlist and calculating the sentiment score, the application provides insight into the overall mood of the playlist.
 
-Features
+## Features
 Fetch tracks from a Spotify playlist using the playlist ID
 Calculate sentiment scores for each track in the playlist
 Display the sentiment score for each track
 
-Getting Started
+## Getting Started
 These instructions will help you set up the project on your local machine for development and testing purposes.
 
-Prerequisites
+## Prerequisites
 Node.js and npm installed on your machine
 
 Spotify API key and secret
 
 A Spotify playlist to analyze
 
-Installation
-Clone the repository:
+## Installation
+### Clone the repository:
+'git clone https://github.com/your_username_here/MusicInsight.git'
 
-git clone https://github.com/your_username_here/MusicInsight.git
 
-
-Change to the project directory:
+### Change to the project directory:
+```
 cd MusicInsight
+```
 
-Install dependencies:
+### Install dependencies:
+```
 npm install
+```
 
-Create a .env file in the project root directory with your Spotify API key and secret:
+### Create a .env file in the project root directory with your Spotify API key and secret:
+```
 SPOTIFY_CLIENT_ID=your_client_id_here
 SPOTIFY_CLIENT_SECRET=your_client_secret_here
+```
 
-Start the development server:
+### Start the development server:
+```
 npm start
+```
 
-Open your browser and navigate to http://localhost:3000.
+### Open your browser and navigate to http://localhost:3000.
 
-Usage
+## Usage
 Enter the playlist ID of a Spotify playlist and click the "Fetch Tracks" button.
 The tracks in the playlist will be displayed along with the artists' names.
 Click the "Analyze Sentiment" button to calculate the sentiment scores for each track.
 The sentiment scores for each track will be displayed.
 
-Technologies Used:
+## Technologies Used:
+```
 React
 Axios
 Spotify API
 Sentiment Analysis API
+```
 
-Project Recap
+## Project Recap
 MusicInsight is a web application that allows users to gain insight into the sentiment of their Spotify playlists. The application fetches track information from Spotify and analyzes the sentiment of each track using a sentiment analysis API. The user can view the sentiment scores for individual tracks.
 
 The project was built using React for the frontend and Axios for making API requests to Spotify and the sentiment analysis API. The application uses useState hooks for managing the state of fetched tracks, sentiment scores, and UI elements. The UI is styled using custom CSS classes.
